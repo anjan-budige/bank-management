@@ -1,6 +1,5 @@
 #include <string.h>
 #include <stdlib.h>
-static int ac = 14334;
 struct cust{
   char name[20];
   int accno;
@@ -9,7 +8,7 @@ struct cust{
 }cust1;
 void add_acc(){
   static int ac = 14334;
-  system("clear");
+  system("cls");
   char name[20];
   char name2[20];
   char cust_name[20];
