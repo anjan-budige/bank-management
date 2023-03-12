@@ -1,5 +1,6 @@
 #include <string.h>
 #include <stdlib.h>
+#include <conio.h>
 static int ac = 14334;
 struct cust{
   char name[20];
