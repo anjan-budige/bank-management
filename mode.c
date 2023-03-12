@@ -3,7 +3,7 @@
 #include "adminfun.c"
 
 void admin(){
-  system("cls");
+  system("clear");
   char user[20];
   char pass[20];
   char pass2[20];
