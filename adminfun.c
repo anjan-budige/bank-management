@@ -45,11 +45,11 @@ void add_acc(){
   fclose(fp);
   fp = fopen(temp3, "r");
   if(fp){
-    printf("Successful Added Account\n");
+    printf("\nSuccessful Added Account\n");
     char c;
     c = fgetc(fp);
     while(c!=EOF){
-      printf(" %c",c);
+      printf("%c",c);
       c = fgetc(fp);
     }
   }
