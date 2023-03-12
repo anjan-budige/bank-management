@@ -1,13 +1,14 @@
 #include <string.h>
 #include <stdlib.h>
+static int ac = 14334;
 struct cust{
   char name[20];
   int accno;
   int bal;
   char pass[10];
 }cust1;
-static int ac = 14334;
 void add_acc(){
+  static int ac = 14334;
   system("cls");
   char name[20];
   char name2[20];
@@ -37,7 +38,7 @@ void add_acc(){
   strcat(temp3,temp4);
   printf("%s",temp3);
   
-  /*fp = fopen(temp3, "w+");
+  fp = fopen(temp3, "w+");
   fprintf(fp,"---Account Details---\n\n");
   fprintf(fp,"Name : %s\nAccount No: %d\nBalance: %d\n",cust_name,cust1.accno,cust1.bal);
   
@@ -54,6 +55,6 @@ void add_acc(){
   }
     else{
       printf("Something Went Wrong");
-    }*/
+    }
   }
   
