@@ -17,5 +17,3 @@ jobs:
       run: gcc main.c -o main2
     - name: make
       run: ./main2
-    - name: make distcheck
-      run: make distcheck
