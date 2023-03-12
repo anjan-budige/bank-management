@@ -1,7 +1,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include "adminfun.c"
-static int ac = 14334;
+
 
 void admin(){
   system("cls");
