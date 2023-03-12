@@ -6,6 +6,7 @@ struct cust{
   int bal;
   char pass[10];
 }cust1;
+static int ac = 14334;
 void add_acc(){
   system("cls");
   char name[20];
