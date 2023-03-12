@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "adminfun.c"
 
-
 void admin(){
   system("cls");
   char user[20];
