@@ -1,6 +1,5 @@
 #include <string.h>
-#include <conio.h>
-static int ac = 14312;
+#include <stdlib.h>
 struct cust{
   char name[20];
   int accno;
@@ -8,7 +7,7 @@ struct cust{
   char pass[10];
 }cust1;
 void add_acc(){
-  clrscr();
+  system("cls");
   char name[20];
   char name2[20];
   char cust_name[20];

@@ -1,9 +1,9 @@
 #include <string.h>
-#include <conio.h>
+#include <stdlib.h>
 #include "adminfun.c"
 
 void admin(){
-  clrscr();
+  system("cls");
   char user[20];
   char pass[20];
   char pass2[20];
