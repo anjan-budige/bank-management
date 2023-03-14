@@ -8,7 +8,7 @@ struct cust{
 }cust1;
 void add_acc(){
   static int ac = 14334;
-  system("cls");
+  system("clear");
   char name[20];
   char name2[20];
   char cust_name[20];
@@ -35,7 +35,6 @@ void add_acc(){
   strcpy(name2,cust1.name);
   strcat(temp3,name2);
   strcat(temp3,temp4);
-  printf("%s",temp3);
   
   fp = fopen(temp3, "w+");
   fprintf(fp,"---Account Details---\n\n");
@@ -51,6 +50,7 @@ void add_acc(){
       printf("%c",c);
       c = fgetc(fp);
     }
+    printf("\n");
   }
     else{
       printf("Something Went Wrong");
