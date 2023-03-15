@@ -39,6 +39,7 @@ void admin(){
 	
 	
 	if(flag==1){
+        admin:
 	printf("1. Add Account\n2. Delete Account \n3. Check All Account\n4. Edit Account\n5. Exit\n");
 	
 	int a;
@@ -47,10 +48,12 @@ void admin(){
 	switch(a){
 	  case 1:{
 	    add_acc();
+            goto admin;
 	    break;
 	  }
 	  case 2:{
-	    //delete_acc();
+	    delete_acc();
+            goto admin;
 	    break;
 	  }
 	  case 3:{
