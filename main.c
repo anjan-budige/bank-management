@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include "mode.c"
 int main(){
-	printf("Neo Bank Management System V1.0 \n\n");
-	printf("1. Admin Login\n2. Staff Login\n3. Customer Login\n4. About Neo\n5. About Neo BMS v1.0\n6. Exit\n");
+	main:
+	printf("Alpha Bank Management System V1.0 \n\n");
+	printf("1. Admin Login\n2. Staff Login\n3. Customer Login\n4. Create account\n5. Exit\n\n");
 
 int a;
 printf("Enter Your Choice: ");
@@ -10,34 +11,31 @@ scanf("%d",&a);
 switch(a){
 	case 1: {
 		admin();
+		goto main;
 		break;
 	}
 	case 2: {
 		staff();
+		goto main;
 		break;
 	}
 	case 3: {
 		customer();
+		goto main;
 		break;
 	}
+	
 	case 4:{
-		printf("------- Neo Bank-------\n");
-		printf("Neo Is an indian banking & financial services company");
+		create_acc();
+		printf("\n\n");
+		goto main;
 		break;
 	}
 	case 5:{
-			printf("------- Neo BMS v1.0-------\n");
-		printf("Neo BMS is for Neo Bank Costumers, This offers users to check their balance, transcations, Customer Details & Many More");
+		printf("\nThanks For Using Our Service\n\nDEVELOPED BY ANJAN BUDIGE   \n");
 		break;
-		
-	}
-	case 6:{
-		printf("\nThanks For Using Our Service\n\n DEVELOPED BY ANJAN BUDIGE   \n");	break;
 	}
 		
 	
 }
-
-
-
 }
