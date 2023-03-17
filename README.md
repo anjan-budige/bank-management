@@ -1,6 +1,6 @@
-# bank-management
+# Bank-Management
 
-*Bank Management System Uisng C*
+*Bank Management System Using C*
 
 **This project is part of programming using C Files Concept**
 
