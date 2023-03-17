@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "adminfun.c"
 #include "stafffun.c"
-#include <conio.h>
 
 void admin(){
  //system("clear");
