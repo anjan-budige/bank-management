@@ -1,4 +1,4 @@
-# Bank-Management
+# Bank-management
 
 *Bank Management System Using C*
 
