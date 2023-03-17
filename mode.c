@@ -1,9 +1,12 @@
 #include <string.h>
 #include <stdlib.h>
 #include "adminfun.c"
+#include "stafffun.c"
+#include <conio.h>
 
 void admin(){
-  system("clear");
+ //system("clear");
+  system("CLS");
   char user[20];
   char pass[20];
   char pass2[20];
@@ -39,38 +42,57 @@ void admin(){
 	
 	
 	if(flag==1){
-        admin:
-	printf("1. Add Account\n2. Delete Account \n3. Check All Account\n4. Edit Account\n5. Exit\n");
+	admin:
+		printf("\n------- Admin Panel -------\n");
+	printf("1. Add Account\n2. Delete Account \n3. Check All Account\n4. Edit Account\n5. Change Your Password\n6. Exit\n\n");
 	
 	int a;
 	printf("Enter Your Option: ");
 	scanf("%d",&a);
+	
 	switch(a){
 	  case 1:{
 	    add_acc();
-            goto admin;
+	    printf("\n");
+	    goto admin;
 	    break;
 	  }
 	  case 2:{
 	    delete_acc();
-            goto admin;
+	    printf("\n");
+		goto admin;
 	    break;
 	  }
 	  case 3:{
-	    //check_all();
+	    check_all();
+	    printf("\n");
+	    goto admin;
 	    break;
 	  }
 	  case 4:
 	  {
-	    //edit_acc();
+	    edit_acc();
+	    printf("\n");
+	    goto admin;
 	    break;
 	  }
 	  case 5:{
-	    //exit(0);
+	  	change_adminpass(user);
+	  	goto admin;
+		break;
+	  }
+	  case 6:{
+	  	printf("Thanks For Using Our Service! \n");
+	  	printf("\nDEVELOPED BY ANJAN BUDIGE\n");
+	    exit(0);
+	    
 	    
 	  }
 	  default:{
 	    printf("Invalid Option\n");
+	    goto admin;
+	    break;
+	    
 	  }
 	 
 	  
@@ -88,6 +110,7 @@ void staff(){
   char pass[20];
   char pass2[20];
   int flag = 0;
+  system("CLS");
 	printf("\n--- Staff Login ----\n");
 	printf("Enter Username: ");
 	scanf("%s",user);
@@ -120,9 +143,54 @@ void staff(){
 	  printf("User Not Found");
 	}
 	
-	
+	int a;
 	if(flag==1){
-	printf("1. Withdraw\n2. Deposit \n3. User Balance Check\n4. Edit Account\n5. Exit\n");
+		staff:
+			printf("\n-------Staff Panel-------\n\n");
+	printf("1. Withdraw\n2. Deposit \n3. User Balance Check\n4. Edit Account\n5. Change Your Password\n6. Exit\n\nSelect Option: ");
+	scanf("%d",&a);
+	switch(a){
+		case 1:{
+			withdraw();
+			goto staff;
+			break;
+		}
+		case 2:{
+			deposit();
+			goto staff;
+			break;
+		}
+		case 3:{
+			user_bal();
+			goto staff;
+			break;
+		}
+		case 4:{
+			edit_acc();
+			goto staff;
+			break;
+		}
+		case 5:{
+			change_pass(filen);
+			goto staff;
+			break;
+		}
+		case 6:{
+			printf("Thank You for using our service\n");
+			printf("\nDEVELOPED BY ANJAN BUDIGE\n");
+			break;
+		}
+		default:{
+			printf("Invalid Option\n");
+			goto staff;
+			break;
+		}
+		
+		
+	}
+	
+	
+	
 	}
 	
 }

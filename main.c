@@ -2,7 +2,7 @@
 #include "mode.c"
 int main(){
 	printf("Neo Bank Management System V1.0 \n\n");
-	printf("1. Admin Login\n2. Staff Logim\n3. Customer Login\n4. About Neo\n5. About Neo BMS v1.0\n6. Exit\n");
+	printf("1. Admin Login\n2. Staff Login\n3. Customer Login\n4. About Neo\n5. About Neo BMS v1.0\n6. Exit\n");
 
 int a;
 printf("Enter Your Choice: ");
@@ -32,7 +32,7 @@ switch(a){
 		
 	}
 	case 6:{
-		printf("\n   Thanks For Using Our Service\n\n        ◥꧁ད 𝔻𝕖𝕧𝕖𝕝𝕠𝕡𝕖𝕕 𝔹𝕪 𝔸𝕟𝕛𝕒𝕟 𝔹𝕦𝕕𝕚𝕘𝕖 ཌ꧂◤   \n");	break;
+		printf("\nThanks For Using Our Service\n\n DEVELOPED BY ANJAN BUDIGE   \n");	break;
 	}
 		
 	
