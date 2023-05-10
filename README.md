@@ -13,5 +13,18 @@
 - [x] Staff Panel
 - [x] Customer Panel
 
+## ⚡️Login Details
+*for Admin*
+
+**Username : anjan, Password : anjan**
+
+*for staff*
+
+**Username : staff, Password : staff**
+
+*for Customer*
+
+**Create Using Admin Login**
+
 **Note : This Project is Developed By Anjan Budige, If any one want to use please give CREDITS and use**
 
