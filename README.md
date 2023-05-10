@@ -1,8 +1,8 @@
 # Bank-management
 
-<img src="https://anjan-budige.github.io/profile/img/bank-management.png" style="border-radius:10%">
+<img src="https://anjan-budige.github.io/profile/img/bank-management.png" style="border-radius:20px">
 
-*Bank Management System Using C*
+*Bank Management Systvem Using C*
 
 **This project is part of programming using C Files Concept**
 
