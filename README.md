@@ -1,6 +1,6 @@
 # Bank-management
 
-![Bank Management](https://anjan-budige.github.io/profile/img/bank-management.png)
+<img src="https://anjan-budige.github.io/profile/img/bank-management.png" style="border-radius:10%">
 
 *Bank Management System Using C*
 
