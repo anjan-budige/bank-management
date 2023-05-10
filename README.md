@@ -1,5 +1,7 @@
 # Bank-management
 
+![Bank Management](anjan-budige.github.io/profile/img/bank-management.png)
+
 *Bank Management System Using C*
 
 **This project is part of programming using C Files Concept**
