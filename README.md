@@ -1,6 +1,6 @@
 # Bank-management
 
-![Bank Management](anjan-budige.github.io/profile/img/bank-management.png)
+![Bank Management](https://anjan-budige.github.io/profile/img/bank-management.png)
 
 *Bank Management System Using C*
 
