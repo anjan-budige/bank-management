@@ -37,7 +37,7 @@ void admin(){
 	  
 	}
 	else{
-	  printf("User Not Found");
+	  printf("User Not Found/n");
 	}
 	
 	
