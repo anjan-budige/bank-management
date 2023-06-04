@@ -3,7 +3,6 @@
 
 void send_money(char str[30]){
 	system("CLS");
-	printf("\n------- Send Money -------\n\n");
 	char temp[20] = "cust_details/";
 	strcat(temp,str);
 	char temp2[20] = ".txt";
