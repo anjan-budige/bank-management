@@ -209,6 +209,7 @@ void add_acc(){
 	char tempn[20];
 	char c;
 	printf("Enter Customer Name: ");
+	scanf("%s",tempn);
 	char name2[20]= ".txt";
 	char name3[20]="cust_details/";
 	strcat(tempn,name2);
