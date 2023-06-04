@@ -49,7 +49,6 @@ void send_money(char str[30]){
 		}
 	}
 	fclose(fp);
-	printf("%d \n",sum);
 	if(sum>=amount){
 	
 	fp = fopen(temp,"r");
